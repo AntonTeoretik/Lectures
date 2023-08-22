@@ -1,18 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    height: 100vh; /* This ensures your body covers the whole viewport */
-    display: flex;
-    justify-content: center; /* This centers content horizontally */
+h1 {
+    color: #2E86C1;  /* Muted color for the main title */
 }
 
-/* Optional: this styles a container div for your content, to give more styling control */
-.content-container {
-    text-align: center;
-    padding: 20px;
-    background: #ffffff;  /* Optional: If you want a different background color for your content */
-    border-radius: 8px;   /* Optional: If you want rounded corners for your content */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: If you want a shadow around your content */
+h2 {
+    color: #2E86C1;
 }
