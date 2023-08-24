@@ -5,3 +5,11 @@ h1 {
 h2 {
     color: #2E86C1;
 }
+
+article {
+    background-color: #303030;
+}
+
+.definition {
+    background-color: #303050;
+}
