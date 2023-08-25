@@ -1,3 +1,8 @@
+body {
+    background-color: #222222;
+    color: #DDDDDD;
+}
+
 h1 {
     color: #2E86C1;  /* Muted color for the main title */
 }
