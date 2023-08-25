@@ -22,3 +22,7 @@ article {
 aside {
     background-color: #333333;
 }
+
+li{
+  margin: 10px 0;
+}
