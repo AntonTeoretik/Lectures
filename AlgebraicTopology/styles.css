@@ -15,6 +15,11 @@ article {
     background-color: #303030;
 }
 
+button {
+    background-color: #2E86C1;
+    border: none;
+}
+
 .definition {
     background-color: #303050;
 }
@@ -25,4 +30,27 @@ aside {
 
 li{
   margin: 10px 0;
+}
+
+.nav-buttons {
+    margin-top: auto; /* Pushes the button div to the bottom */
+    display: flex;
+    justify-content: space-between;
+}
+
+#back_top {
+    align-self: flex-start; /* Aligns the back button to the left */
+}
+
+#next_top {
+    align-self: flex-end; /* Aligns the next button to the right */
+}
+
+#back {
+    align-self: flex-start; /* Aligns the back button to the left */
+}
+
+#next {
+    align-self: flex-end; /* Aligns the next button to the right */
+    margin-left: auto; /* Pushes the next button to the right */
 }
