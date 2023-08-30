@@ -20,16 +20,17 @@ button {
     border: none;
 }
 
-.definition {
-    background-color: #303050;
-}
 
 aside {
     background-color: #333333;
 }
 
-li{
+li {
   margin: 10px 0;
+}
+
+.definition {
+    background-color: #303050;
 }
 
 .nav-buttons {
