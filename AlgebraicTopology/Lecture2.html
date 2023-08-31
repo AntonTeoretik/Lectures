@@ -159,30 +159,43 @@
     \(h\) цвета \( \text{color}_s \), если \(h = g \cdot s \). Вот несколько примеров того, как это делать (для каждой
     группы выбрано несколько разных порождающих множеств):
 </p>
+<p>
+    1. \(G = \mZ/7, S = \{1\}, \{2\}, \{3\}\). Каждый из этих элементов порождает всю группу.
+</p>
 
 <figure class="sign">
     <p><img src="pictures/cayleyGraphs.png" alt="Z7"></p>
-    <figcaption>\(G = \mZ/7, S = \{1\}, \{2\}, \{3\}\).</figcaption>
 </figure>
+
+<p>
+    2. \(G = \mZ/6, S = \{1\}, \{2, 3\}\). Заметим, что в этом случае \(2\) или \(3\) по отдельности не порождают
+    всю группу, т.к. \(6\) делится на \(2\) и \(3\), но если взять оба числа, то, поскольку они взаимно просты,
+    из них можно получить единицу, а значит и все остальные элементы.
+</p>
 
 <figure class="sign">
     <p><img src="pictures/cayleyGraphsZ6.png" alt="Z/6"></p>
-    <figcaption>\(G = \mZ/6, S = \{1\}, \{2, 3\}\).</figcaption>
+    <figcaption></figcaption>
 </figure>
-
+<p>
+    3. Группа симметрий треугольника \(G = D_3, S = \{R_+, s_a\}\). Обратите внимание, что в этом случае не существует
+    одного порождающего элемента.
+</p>
 <figure class="sign">
-    <p><img src="pictures/no_picture.png" alt="D3"></p>
-    <figcaption>\(G = D_3, S = \{R_+, s_a\}\).</figcaption>
+    <p><img src="pictures/cayleyGraphsD3.png" alt="D3"></p>
 </figure>
-
+<p>
+    4. \(G = \mZ, S = \{1\}, \{2, 3\}\). Аналогично случаю с остатками, \(2\) или \(3\) по отдельности не порождают
+    всю группу, но, т.к. \(1 = 3 - 2\), все элементы можно получить с помощью этих двух элементов
+</p>
 <figure class="sign">
-    <p><img src="pictures/no_picture.png" alt="Z"></p>
-    <figcaption>\(G = \mZ, S = \{1\}, \{2, 3\}\).</figcaption>
+    <p><img src="pictures/cayleyGraphsZ.png" alt="Z"></p>
 </figure>
-
+<p>
+    5. \(G = \mZ\times\mZ, S = \{(1, 0), (0, 1)\}, \{(-1, 2), (1, -3)\}\)
+</p>
 <figure class="sign">
-    <p><img src="pictures/no_picture.png" alt="ZxZ"></p>
-    <figcaption>\(G = \mZ\times\mZ, S = \{(1, 0), (0, 1)\}, \{(1, 2), (0, -1)\}\).</figcaption>
+    <p><img src="pictures/cayleyGraphsZxZ.png" alt="ZxZ"></p>
 </figure>
 
 <p>
@@ -194,10 +207,8 @@
     \(a, b, a\inv, b\inv\) (просто по определению группы). На картинке это означает, что полученный граф будет без
     циклов (т.е. деревом). Вот как он выглядит:
 </p>
-<figure class="sign">
-    <p><img src="pictures/no_picture.png" alt="Граф свободной группы"></p>
-    <figcaption>\(G = \mZ*\mZ, S = \{a, b\}\).</figcaption>
-</figure>
+
+<img src="pictures/cayleyGraphsZstarZ.png" alt="Граф свободной группы" width="">
 
 <div class="nav-buttons">
     <button id="back" onclick="window.location.href='Lecture1.html';"><b>Предыдущая лекция</b></button>
