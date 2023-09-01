@@ -39,6 +39,10 @@ li {
     justify-content: space-between;
 }
 
+.long_formula {
+  overflow: auto;
+}
+
 #back_top {
     align-self: flex-start; /* Aligns the back button to the left */
 }
