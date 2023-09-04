@@ -1,6 +1,23 @@
 body {
     background-color: #222222;
     color: #DDDDDD;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px) {
+    body {
+        font-size: 19px;
+    }
+}
+@media (min-width:1280px) {
+    body {
+        font-size: 20px;
+    }
 }
 
 h1 {
