@@ -49,6 +49,9 @@ li {
 .definition {
     background-color: #303050;
 }
+.proposition {
+    background-color: #2A4010;
+}
 
 .nav-buttons {
     margin-top: auto; /* Pushes the button div to the bottom */
