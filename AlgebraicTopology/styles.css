@@ -49,6 +49,11 @@ article.exercise::before {
     font-weight: bold;
 }
 
+article > .proof::before {
+    content: "Доказательство:";
+    font-weight: bold;
+}
+
 button {
     background-color: #2E86C1;
     border: none;
@@ -60,13 +65,23 @@ aside {
 }
 
 li {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .definition {
     background-color: #303050;
 }
+
 .proposition {
+    background-color: #2A4010;
+}
+
+article.proposition::before {
+    content: "Утверждение.";
+    font-weight: bold;
+}
+
+.theorem {
     background-color: #2A4010;
 }
 
