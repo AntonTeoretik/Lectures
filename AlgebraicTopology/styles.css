@@ -2,6 +2,7 @@ body {
     background-color: #222222;
     color: #DDDDDD;
     font-size: 16px;
+    counter-reset: problemCounter;
 }
 
 @media (min-width:768px) {
@@ -34,6 +35,17 @@ article {
 
 article.definition::before {
     content: "Определение. ";
+    font-weight: bold;
+}
+
+article.problem::before {
+    counter-increment: problemCounter;
+    content: "Задача " counter(problemCounter) ". ";
+    font-weight: bold;
+}
+
+article.exercise::before {
+    content: "Упражнение.";
     font-weight: bold;
 }
 
