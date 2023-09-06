@@ -32,6 +32,11 @@ article {
     background-color: #303030;
 }
 
+article.definition::before {
+    content: "Определение. ";
+    font-weight: bold;
+}
+
 button {
     background-color: #2E86C1;
     border: none;
