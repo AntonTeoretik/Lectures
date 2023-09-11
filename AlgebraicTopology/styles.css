@@ -59,6 +59,10 @@ button {
     border: none;
 }
 
+.table-of-contents > button {
+    text-align: left
+}
+
 
 aside {
     background-color: #333333;
