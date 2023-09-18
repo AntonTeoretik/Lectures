@@ -99,6 +99,11 @@ article.proposition::before {
   overflow: auto;
 }
 
+.img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #back_top {
     align-self: flex-start; /* Aligns the back button to the left */
 }
