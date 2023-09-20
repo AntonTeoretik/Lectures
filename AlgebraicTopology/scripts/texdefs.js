@@ -16,7 +16,9 @@ window.MathJax = {
             la: "{\\langle}",
             ra: "{\\rangle}",
             mcN: "{\\mathcal{N}}",
-            mcI: "{\\mathcal{I}}"
+            mcI: "{\\mathcal{I}}",
+            mcJ: "{\\mathcal{J}}",
+            eps: "{\\varepsilon}"
         }
     }
 };
