@@ -139,7 +139,7 @@
 <article>
     <b>Замечание.</b> Обычно такие определения формулируют с помощью коммутативных диаграмм.
     В данном случае она будет выглядеть так:
-    <img src="pictures/universalPropertyProduct.png" alt="Product"> <br>
+    <img src="pictures/groups/universalPropertyProduct.png" alt="Product"> <br>
     Здесь пунктир обозначает что данная стрелка существует и единственна, а коммутативность означает,
     что композиция желтой стрелки и зеленой равна соответствующей синей.
 </article>
@@ -192,7 +192,7 @@
         Значит единственное возможное отображение \(g\) это
         \[h(g) = (f_1(g) , f_2(g)).\]
         Очевидно проверяется, что это действительно гомоморфизм.
-        <img src="pictures/universalPropertyProduct1.png" alt="ProductExplicit">
+        <img src="pictures/groups/universalPropertyProduct1.png" alt="ProductExplicit">
     </div>
 </article>
 
@@ -232,7 +232,7 @@
     \end{array}
     \]
     На языке диаграмм это выглядит так:
-    <img src="pictures/universalPropertyCoproduct.png" alt="Диаграмма">
+    <img src="pictures/groups/universalPropertyCoproduct.png" alt="Диаграмма">
 </article>
 <article class="exercise">
     Докажите, что копроизведение единственно, с точностью до изоморфизма.
@@ -322,21 +322,21 @@
     \[= ababba = abaaa = aba.\]
     Вот граф Кэли этой группы.
 </p>
-<img src="pictures/cayleyZ2starZ2.png" alt="Z2*Z2">
+<img src="pictures/groups/cayleyZ2starZ2.png" alt="Z2*Z2">
 <p>
     Группа \(\mZ/2 * \mZ/3\) изоморфна \(\la a, b | a^2, b^3 \ra\). Примером перемножения элементов будет
     \[ab^2aba\cdot ab^2a = ab^2abaab^2a =\]
     \[= ab^2abb^2a = ab^2aaa = ab^2a.\]
     Граф Кэли этой группы выглядит более красиво:
 </p>
-<img src="pictures/cayleyZ2starZ3.png" alt="Z2*Z3">
+<img src="pictures/groups/cayleyZ2starZ3.png" alt="Z2*Z3">
 <p>
     И ещё чуть-чуть красивых картинок для групп \(\mZ/3 * \mZ/3\) и \((\mZ/2)^2 * \mZ/2\),
     где \((\mZ/2)^2\) обозначает просто \(\mZ/2 \times \mZ/2\):
 </p>
 
-<img src="pictures/cayleyZ3starZ3.png" alt="Z3*Z3">
-<img src="pictures/cayleyZ22starZ2.png" alt="Z2xZ2*Z2">
+<img src="pictures/groups/cayleyZ3starZ3.png" alt="Z3*Z3">
+<img src="pictures/groups/cayleyZ22starZ2.png" alt="Z2xZ2*Z2">
 
 <p>
     Вообще говоря, произведения и копроизведения можно определить для любого количества групп, даже бесконечного.
@@ -353,7 +353,7 @@
     такой, что
     \[ f_\alpha = pr_\alpha \circ h \]
     для всех \(\alpha \in \mcI\).
-    <img src="pictures/productInfinite.png" alt="Диаграмма">
+    <img src="pictures/groups/productInfinite.png" alt="Диаграмма">
 
     <hr>
     Группа \(\coprod_{\alpha} G_\alpha\) с гомоморфизмами
@@ -366,7 +366,7 @@
     \[ f_\alpha = h \circ i_\alpha \]
     для всех \(\alpha \in \mcI\).
 
-    <img src="pictures/coproductInfinite.png" alt="Диаграмма">
+    <img src="pictures/groups/coproductInfinite.png" alt="Диаграмма">
 
 </article>
 
@@ -486,7 +486,7 @@
     \(f: G \to G_1\) такого, что \[f_1 \circ f = f_2 \circ f \]
     существует единственный гомоморфизм \(h : G \to H\) такой, что \[f = h \circ i.\]
 
-    <img src="pictures/equalizer.png" alt="equalizer">
+    <img src="pictures/groups/equalizer.png" alt="equalizer">
 
     Гомоморфизм (вложения) \(i\) называется <b>уравнителем (equalizer)</b> гомоморфизмов \(f_1\) и \(f_2\).
     Он "уравнивает" два гомоморфизма "слева", т.е. он фильтрует данные, чтобы два гомоморфизма стали равными.
@@ -503,7 +503,7 @@
     \(f: G_2 \to G\) такого, что \[f \circ f_1 = f \circ f_2 \]
     существует единственный гомоморфизм \(h : H \to G\) такой, что \[f = p \circ h.\]
 
-    <img src="pictures/coequalizer.png" alt="coequalizer">
+    <img src="pictures/groups/coequalizer.png" alt="coequalizer">
 
     Гомоморфизм \(p\) называется <b>коуравнителем (coequalizer)</b> гомоморфизмов \(f_1\) и \(f_2\).
     Он "уравнивает" два гомоморфизма "справа", т.е. он склеивает все элементы вида \(f_1(g)\) с элементами
