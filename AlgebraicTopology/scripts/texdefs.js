@@ -7,6 +7,8 @@ window.MathJax = {
             im: "{\\operatorname{im}}",
             Forget: "{\\operatorname{Forget}}",
             Free: "{\\operatorname{Free}}",
+            Discrete: "\\operatorname{Discrete}",
+            Trivial: "\\operatorname{Trivial}",
             mZ: "{\\mathbb{Z}}",
             mN: "{\\mathbb{N}}",
             mQ: "{\\mathbb{Q}}",
