@@ -9,6 +9,7 @@ window.MathJax = {
             Free: "{\\operatorname{Free}}",
             Discrete: "\\operatorname{Discrete}",
             Trivial: "\\operatorname{Trivial}",
+            then: "\\Rightarrow",
             mZ: "{\\mathbb{Z}}",
             mN: "{\\mathbb{N}}",
             mQ: "{\\mathbb{Q}}",
