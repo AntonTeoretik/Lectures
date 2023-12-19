@@ -1,0 +1,122 @@
+body {
+    background-color: #222222;
+    color: #DDDDDD;
+    font-size: 16px;
+    counter-reset: problemCounter;
+}
+
+@media (min-width:768px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px) {
+    body {
+        font-size: 19px;
+    }
+}
+@media (min-width:1280px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+h1 {
+    color: #2E86C1;  /* Muted color for the main title */
+}
+
+h2 {
+    color: #2E86C1;
+}
+
+article {
+    background-color: #303030;
+}
+
+article.definition::before {
+    content: "Определение. ";
+    font-weight: bold;
+}
+
+article.problem::before {
+    counter-increment: problemCounter;
+    content: "Задача " counter(problemCounter) ". ";
+    font-weight: bold;
+}
+
+article.exercise::before {
+    content: "Упражнение.";
+    font-weight: bold;
+}
+
+article > .proof::before {
+    content: "Доказательство:";
+    font-weight: bold;
+}
+
+button {
+    background-color: #2E86C1;
+    border: none;
+}
+
+.table-of-contents > button {
+    text-align: left
+}
+
+
+aside {
+    background-color: #333333;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.definition {
+    background-color: #303050;
+}
+
+.proposition {
+    background-color: #2A4010;
+}
+
+article.proposition::before {
+    content: "Утверждение.";
+    font-weight: bold;
+}
+
+.theorem {
+    background-color: #2A4010;
+}
+
+.nav-buttons {
+    margin-top: auto; /* Pushes the button div to the bottom */
+    display: flex;
+    justify-content: space-between;
+}
+
+.long_formula {
+  overflow: auto;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#back_top {
+    align-self: flex-start; /* Aligns the back button to the left */
+}
+
+#next_top {
+    align-self: flex-end; /* Aligns the next button to the right */
+}
+
+#back {
+    align-self: flex-start; /* Aligns the back button to the left */
+}
+
+#next {
+    align-self: flex-end; /* Aligns the next button to the right */
+    margin-left: auto; /* Pushes the next button to the right */
+}
